@@ -6,25 +6,25 @@ cask "hazel" do
     end
   end
 
-  version "1.3.0"
+  version "1.4.0"
 
   on_macos do
     on_arm do
-      sha256 "f4207d5ea39ca2c25a48328a873a80615b3a02a84d47e65a1ee2d4c367d3839a"
+      sha256 "4ed001e4c512c56fc27795f3a93caeb1c26754529b3cb052f5ceb1de210bcae8"
       url "https://github.com/winebarrel/hazel/releases/download/v#{version}/hazel_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "351c8d01ea9dcd2178c08d1f7b274f26907b8339bb396ee8646efdfb49273c20"
+      sha256 "13b102a59971e21e9384590e942920edcebfe1635dda3b80645e837b89de7df4"
       url "https://github.com/winebarrel/hazel/releases/download/v#{version}/hazel_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "ac670bba9151ee4ab363d7feda48bb595ab8bf7242f6dc9247d49346c2eb399b"
+      sha256 "381174d9842770f23e64648cdd64143d88bb03685be2197d36e635cafbc53cbe"
       url "https://github.com/winebarrel/hazel/releases/download/v#{version}/hazel_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9201b7d2b3c8b54f2388c415549c5f2b558b3cae7f7c039f9bc0ed0d31e4638d"
+      sha256 "4bd96ad7d95dc7c13d772484b4a6f0fd3dfe02c5d22324fed338d00d28df3635"
       url "https://github.com/winebarrel/hazel/releases/download/v#{version}/hazel_#{version}_linux_amd64.tar.gz"
     end
   end
